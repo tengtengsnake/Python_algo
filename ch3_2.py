@@ -2,7 +2,7 @@ class Node():  #建立類別
     def __init__(self,data=None):
         self.data=data  #data
         self.next=None  #pointer
-class Linked_list():
+class Linked_list(): #建立鏈結串列類別
     def __init__(self):
         self.head=None
     def print_list(self):
