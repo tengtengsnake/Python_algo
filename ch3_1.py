@@ -12,5 +12,5 @@ n1.next=n2   #n1指向下一個節點n2
 n2.next=n3   #same as above
 ptr=n1       #ptr 指向n1 節點
 while ptr:
-    print(ptr.data)
-    ptr=ptr.next
+    print(ptr.data)  #列印節點
+    ptr=ptr.next    #指標指向下一個節點
