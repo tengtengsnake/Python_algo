@@ -1,4 +1,4 @@
-class Node():
+class Node():  #建立類別
     #節點
     def __init__(self,data=None):
         self.data=data
