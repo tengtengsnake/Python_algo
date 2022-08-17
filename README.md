@@ -36,5 +36,7 @@
 + 當字串經過hashfunction得到hashcode,再利用hashcode%n 就可以得到index value  
 + index=hashcode%n  
 + 當兩字串index 相同時,此時會發生碰撞,必須用鏈結法chaining 處理  使用線性探測法(linear probing)找尋index 相同的字串  
-+ 負載係數(loadfactor):評估table使用情況,是否要擴充table或是使用新table  
-+ 
++ 負載係數(loadfactor):評估table使用情況,是否要擴充table或是使用新table     
++ md5
+
+### 鏈結串列linked_list  
