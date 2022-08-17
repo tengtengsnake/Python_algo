@@ -6,3 +6,7 @@ print('Hash Value          =',data.digest)
 print('Hash Value(16進位)=',data.hexdigest())
 print(type(data))
 print(type(data.hexdigest()))
+#md5() 建立md5()方法物件
+#update() 更新數據文件內容
+#digest() 將數據文件轉成雜湊值
+#hexdigest 將數據文件轉成16進位的雜湊值
