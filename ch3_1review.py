@@ -14,4 +14,4 @@ ptr=n1 #指標節點
 
 while ptr:
     print(ptr.data)
-    ptr=ptr.next
+    ptr=ptr.next #移動指標到下一個節點
