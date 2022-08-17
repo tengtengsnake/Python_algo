@@ -20,5 +20,13 @@
 + 沒有空間,則必須找尋更大的記憶體空間,並且連同原本陣列一起轉移 ->time complexity O(n)  
 + 刪除元素,則是後方元素往前移動-> time complexity O(n)  
 + 搜尋元素 ->time complexity O(logn) 二分法  
-
+### 鏈結串列linked_list  
++ 讀取資料使用順序讀取(sequential access)  
++ 不必在連續記憶體空間  
+#### 插入/刪除 節點  
++ ->time complexity O(1)  
+#### 循環鏈結串列(circle linked list)  
++ 設計將末端節點指向頭節點,就是一個circle lineked list  
+#### 雙向鏈結串列(double linked list)   
++ 多一個指標區,設計用來指向前面一個節點
 
