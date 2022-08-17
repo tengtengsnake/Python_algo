@@ -9,3 +9,4 @@ plt.plot(xpt,ypt2,'-o',label="O(logn)")
 plt.plot(xpt,ypt3,'-o',label="O(n)")
 plt.legend(loc='best')
 plt.show()
+#
