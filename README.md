@@ -30,7 +30,7 @@
 #### 雙向鏈結串列(double linked list)   
 + 多一個指標區,設計用來指向前面一個節點
 
-### hash table  
+### Hash table  
 + 主要目的是提高搜尋某一個元素的效率  
 + 利用python 中的dict{key:value} pair,只要有key就可以得到value O(1)  
 + 當字串經過hashfunction得到hashcode,再利用hashcode%n 就可以得到index value  
