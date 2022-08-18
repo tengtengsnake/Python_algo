@@ -42,7 +42,9 @@
 ### Stack 堆疊  
 ![](https://miro.medium.com/max/1400/0*ODLWiNnxC-G1Wf5P.png)
 + 也是線性資料結構,特色:由下往上進行資料堆疊  
-+ 
++ FIFO(First in last out) 結構    
++ recursive call 就是使用stack  
++ 無法讀取中間的資料  
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
