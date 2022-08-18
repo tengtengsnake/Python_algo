@@ -31,7 +31,7 @@
 + 多一個指標區,設計用來指向前面一個節點
 
 ### Queue 
-+ 資料插入/讀取 enqueue/dequeue  
++ 資料插入/讀取 enqueue/dequeue 使用insert() 以及pop() 打出尾部資料   
 + 線性資料結構 queue就是排隊拉,FIFO先進先出  
 + 讀取資料觀念dequeue,讀取後在移除,也可稱為取出資料  
 + 因為是FIFO,所以無法讀取中間的資料
