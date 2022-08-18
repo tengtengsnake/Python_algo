@@ -30,6 +30,13 @@
 #### 雙向鏈結串列(double linked list)   
 + 多一個指標區,設計用來指向前面一個節點
 
+### Queue 
++ 資料插入/讀取 enqueue/dequeue  
++ 線性資料結構 queue就是排隊拉,FIFO先進先出  
++ 讀取資料觀念dequeue,讀取後在移除,也可稱為取出資料  
++ 因為是FIFO,所以無法讀取中間的資料
++ 
+
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 + 主要目的是提高搜尋某一個元素的效率  
 + 利用python 中的dict{key:value} pair,只要有key就可以得到value O(1)  
@@ -37,6 +44,6 @@
 + index=hashcode%n  
 + 當兩字串index 相同時,此時會發生碰撞,必須用鏈結法chaining 處理  使用線性探測法(linear probing)找尋index 相同的字串  
 + 負載係數(loadfactor):評估table使用情況,是否要擴充table或是使用新table     
-+ md5
++ md5(message digest 5)訊息摘要  
 
-### 鏈結串列linked_list  
+
