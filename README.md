@@ -45,6 +45,8 @@
 + FIFO(First in last out) 結構    
 + recursive call 就是使用stack  
 + 無法讀取中間的資料  
++ 利用List來實作stack  
++ 內建方法實踐push/pop. ->append()/pop()  
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
