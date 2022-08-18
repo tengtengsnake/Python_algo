@@ -50,7 +50,7 @@
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
-+ 利用python 中的dict{key:value} pair,只要有key就可以得到value O(1)  
++ 利用python 中的dict{key:value} pair,只要有key就可以得到value -> time compleity O(1)  
 + 當字串經過hashfunction得到hashcode,再利用hashcode%n 就可以得到index value  
 + index=hashcode%n  
 + 當兩字串index 相同時,此時會發生碰撞,必須用鏈結法chaining 處理  使用線性探測法(linear probing)找尋index 相同的字串  
