@@ -55,6 +55,8 @@
 + 以層次定義樹的深度,往下越深,每i層最多有2**(i-1)個節點  
 + 滿元樹(Full binary tree),是指除葉節點沒有子節點,其他都有節點的有兩個子節點  
 + 完全二元樹(Complete binary tree),
++ 平衡樹(Balanced binary tree),每個節點的兩個子節點深度不可以超過1  
+![](https://media.geeksforgeeks.org/wp-content/uploads/tree.jpg)
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
