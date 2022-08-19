@@ -50,6 +50,7 @@
 ### Binary Tree 二元樹  
 + 每一個節點可以儲存3個資料,分別是data,left pointer,right pointer  
 + 如果一個節點他完全沒有子節點,便可稱此節點為**葉節點(leaves node)**  
++ 使用陣列儲存二元樹  
 #### 樹的種類  
 ![](https://miro.medium.com/max/1200/1*CMGFtehu01ZEBgzHG71sMg.png)
 + 以層次定義樹的深度,往下越深,每i層最多有2**(i-1)個節點  
