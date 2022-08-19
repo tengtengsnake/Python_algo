@@ -38,7 +38,7 @@
 + 資料插入/讀取 enqueue/dequeue 使用insert() 以及pop() 打出尾部資料   
 + 線性資料結構 queue就是排隊拉,FIFO先進先出  
 + 讀取資料觀念dequeue,讀取後在移除,也可稱為取出資料  
-+ 因為是FIFO,所以無法讀取中間的資料
++ 因為是FIFO,所以無法讀取中間的資料  
 ### Stack 堆疊  
 ![](https://miro.medium.com/max/1400/0*ODLWiNnxC-G1Wf5P.png)
 + 也是線性資料結構,特色:由下往上進行資料堆疊  
@@ -47,6 +47,14 @@
 + 無法讀取中間的資料  
 + 利用List來實作stack  
 + 內建方法實踐push/pop. ->append()/pop()  
+### Binary Tree 二元樹  
++ 每一個節點可以儲存3個資料,分別是data,left pointer,right pointer  
++ 如果一個節點他完全沒有子節點,便可稱此節點為**葉節點(leaves node)**  
+#### 樹的種類  
+![](https://miro.medium.com/max/1200/1*CMGFtehu01ZEBgzHG71sMg.png)
++ 以層次定義樹的深度,往下越深,每i層最多有2**(i-1)個節點  
++ 滿元樹(Full binary tree),是指除葉節點沒有子節點,其他都有節點的有兩個子節點  
+
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
