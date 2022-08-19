@@ -42,7 +42,7 @@
 ### Stack 堆疊  
 ![](https://miro.medium.com/max/1400/0*ODLWiNnxC-G1Wf5P.png)
 + 也是線性資料結構,特色:由下往上進行資料堆疊  
-+ FIFO(First in last out) 結構    
++ FILO(First in last out) 結構    
 + recursive call 就是使用stack  
 + 無法讀取中間的資料  
 + 利用List來實作stack  
