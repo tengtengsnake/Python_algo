@@ -55,13 +55,16 @@
 + 以層次定義樹的深度,往下越深,每i層最多有2**(i-1)個節點  
 + 滿元樹(Full binary tree),是指除葉節點沒有子節點,其他都有節點的有兩個子節點  
 + 完全二元樹(Complete binary tree),
+![](https://cdn.programiz.com/sites/tutorial2program/files/complete-binary-tree_0.png)
 + 平衡樹(Balanced binary tree),每個節點的兩個子節點深度不可以超過1  
 ![](https://media.geeksforgeeks.org/wp-content/uploads/tree.jpg)
++ 完美二元樹(Perfect Binary tree),除最深層節點,其他節點都是滿的
+![](https://cdn.programiz.com/sites/tutorial2program/files/perfect-binary-tree_0.png)
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
 + 利用python 中的dict{key:value} pair,只要有key就可以得到value -> time compleity O(1)  
-+ 當字串經過hashfunction得到hashcode,再利用hashcode%n 就可以得到index value  
++ 當字串經過hashfunction得到hashcode,再利用hashcode%n(n是陣列長度) 就可以得到index value  
 + index=hashcode%n  
 + 當兩字串index 相同時,此時會發生碰撞,必須用鏈結法chaining 處理  使用線性探測法(linear probing)找尋index 相同的字串  
 + 負載係數(loadfactor):評估table使用情況,是否要擴充table或是使用新table     
