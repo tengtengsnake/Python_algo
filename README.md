@@ -78,6 +78,7 @@
 #### 氣泡排序法(Bubble sort)  
 + 最著名,最簡單
 + 將相鄰元素作比較,如果前一個元素大於後一個,將兩者位置交換  
-+ 如果有n
++ 如果有n筆元素,將做n-1次比較(n-1次迴圈)  
++ time complexity is O(n**2)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png) 
 ### 排序Sort  
