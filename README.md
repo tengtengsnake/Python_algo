@@ -76,7 +76,8 @@
 + 輸出結果是遞增序列(如果沒有註明是反向排序(reversed sort)   
 + 排序可以是數字或字串  
 #### 氣泡排序法(Bubble sort)  
-+ 最著名,最簡單
+![](https://static.studytonight.com/data-structures/images/basic-bubble-sort.png)  
++ 最著名,最簡單  
 + 將相鄰元素作比較,如果前一個元素大於後一個,將兩者位置交換  
 + 如果有n筆元素,將做n-1次比較(n-1次迴圈)  
 + time complexity is O(n**2)  
