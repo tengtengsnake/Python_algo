@@ -1,5 +1,3 @@
-from curses.ascii import NL
-
 
 def cocktail_sort(nLst):
     '''雞尾酒排序'''
