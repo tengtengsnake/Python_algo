@@ -71,5 +71,13 @@
 + 當兩字串index 相同時,此時會發生碰撞,必須用鏈結法chaining 處理  使用線性探測法(linear probing)找尋index 相同的字串  
 + 負載係數(loadfactor):評估table使用情況,是否要擴充table或是使用新table     
 + md5(message digest 5)訊息摘要  
-
-
+### 排序Sort  
++ 將一串資料依特定方式排序  
++ 輸出結果是遞增序列(如果沒有註明是反向排序(reversed sort)   
++ 排序可以是數字或字串  
+#### 氣泡排序法(Bubble sort)  
++ 最著名,最簡單
++ 將相鄰元素作比較,如果前一個元素大於後一個,將兩者位置交換  
++ 如果有n
+![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png) 
+### 排序Sort  
