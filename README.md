@@ -101,10 +101,12 @@ Conquer：按照「由小到大」的順序，「合併」小數列。
 依此類推，最後，考慮數列{3,5,6,8}與{1,2,4,7}，比較大小後，合併成數列{1,2,3,4,5,6,7,8}。  
 ### 職場面試題目  
 + 歐幾里得演算法  
-#### 找到最大公因數
-+ 利用輾轉演算法比較容易  
+#### 找到最大公因數 兩種方式 輾轉相除法,lcm method
++ 利用 (Euclidean algorithm)輾轉演算法比較容易  
++ ![](https://cdn.inchcalculator.com/wp-content/uploads/2018/12/euclids-algorithm.png)
++LCM method 找尋
+![](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/greatest-common-divisor-using-lcm-method-1621833508.png)
 
- 
 #### 找到最小公倍數  LCM(least common multiple)  
 + LCM method   兩數相乘除以gcd  
-![](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/greatest-common-divisor-using-lcm-method-1621833508.png)
+
