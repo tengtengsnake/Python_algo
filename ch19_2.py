@@ -1,4 +1,4 @@
-#回文Palindrome
+#回文Palindrome 右pop() = popleft()
 from collections import deque
 
 def palindrome(word):
