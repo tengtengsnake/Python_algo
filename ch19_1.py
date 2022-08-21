@@ -13,3 +13,4 @@ if isPrime(num):
     print("num is a prime number")
 else:
     print("num isn't a prime number")
+#合數  是指一個數的因數有3個以上
