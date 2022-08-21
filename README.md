@@ -104,7 +104,7 @@ Conquer：按照「由小到大」的順序，「合併」小數列。
 #### 找到最大公因數 兩種方式 輾轉相除法,lcm method
 + 利用 (Euclidean algorithm)輾轉演算法比較容易  
 + ![](https://cdn.inchcalculator.com/wp-content/uploads/2018/12/euclids-algorithm.png)
-+LCM method 找尋
++ LCM method 找尋
 ![](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/greatest-common-divisor-using-lcm-method-1621833508.png)
 
 #### 找到最小公倍數  LCM(least common multiple)  
