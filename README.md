@@ -103,6 +103,8 @@ Conquer：按照「由小到大」的順序，「合併」小數列。
 + 歐幾里得演算法  
 #### 找到最大公因數
 + 利用輾轉演算法比較容易  
-#### 找到最小公倍數  
+
+ 
+#### 找到最小公倍數  LCM(least common multiple)  
++ LCM method   兩數相乘除以gcd  
 ![](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/greatest-common-divisor-using-lcm-method-1621833508.png)
-+ LCM method  
