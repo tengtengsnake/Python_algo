@@ -85,6 +85,9 @@
 ![](https://img.magiclen.org/albums/cocktail-sort/animation-541x176.gif)
 + 為bubble sort() 改良版
 + also known as bidirectional bubble sort  
++ 元素沒有更動,即資料完成排序  
++ time complexity 最佳是O(n),平均是O(n**2)  
++ 
 #### 選擇排序法 (Selection sort)  
 ![]([http://i.stack.imgur.com/qa2Cg.gif](https://ithelp.ithome.com.tw/upload/images/20211003/20121027Z3FUzMHujx.jpg))  
 + 原理是反覆從未排序數列中找出最小值，將它與左邊的數做交換。可以有兩種方式排序，一為由大到小排序時，將最小值放到末端;若由小到大排序時，則將最小值放到前端  
@@ -111,6 +114,10 @@ Conquer：按照「由小到大」的順序，「合併」小數列。
 考慮數列{8}與{6}，比較大小後，合併成數列{6,8}。  
 考慮數列{3,5}與{6,8}，比較大小後，合併成數列{3,5,6,8}。  
 依此類推，最後，考慮數列{3,5,6,8}與{1,2,4,7}，比較大小後，合併成數列{1,2,3,4,5,6,7,8}。  
+#### KNN 演算法(K-Nearest Neighbor)  K-鄰演算法  
++ 用於**分類**以及**回歸**  
++ 利用dist 值的大小判斷兩者差異程度,值越小差異越少 使用畢氏定理觀念  
++ 可用於影片推薦  
 ### 職場面試題目  
 + 歐幾里得演算法  
 #### 找到最大公因數 兩種方式 輾轉相除法,lcm method
