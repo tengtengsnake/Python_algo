@@ -70,7 +70,18 @@
 + index=hashcode%n  
 + 當兩字串index 相同時,此時會發生碰撞,必須用鏈結法chaining 處理  使用線性探測法(linear probing)找尋index 相同的字串  
 + 負載係數(loadfactor):評估table使用情況,是否要擴充table或是使用新table     
-+ md5(message digest 5)訊息摘要  
++ 一般商用資料庫系統是將使用者建立的密碼送到雜湊函數產生hashcode,所以即使hashcode被盜或外洩,使用者密碼不用擔心被逆推
+#### md5(message digest 5)訊息摘要  
++ 又稱訊息摘要演算法  
++ 將文字轉成固定128位元的長度的值  
++ 不建議使用,已被破解  
+#### SHA(Secure hash algo)家族  
+![](https://slidesplayer.com/slide/11296650/61/images/21/SHA%E5%AE%B6%E6%97%8F+%E6%BC%94%E7%AE%97%E6%B3%95+%E8%BC%B8%E5%87%BA%E9%9B%9C%E6%B9%8A%E5%80%BC%E9%95%B7%E5%BA%A6+%28bits%29+%E4%B8%AD%E7%B9%BC%E9%9B%9C%E6%B9%8A%E5%80%BC%E9%95%B7%E5%BA%A6+%28bits%29+%E8%B3%87%E6%96%99%E5%8D%80%E5%A1%8A%E9%95%B7%E5%BA%A6+%28bits%29+%E6%9C%80%E5%A4%A7%E8%BC%B8%E5%85%A5%E8%A8%8A%E6%81%AF%E9%95%B7%E5%BA%A6+%28bits%29.jpg)
++ 由NSA 設計 National insiture of standards and Technology  
++ 種類有SHA-0,SHA-1(被破解),SHA2,SHA3  
+##### SHA2 SHA256  
++ 廣泛使用,尚未破解  
++ 
 ### 排序Sort  
 + 將一串資料依特定方式排序  
 + 輸出結果是遞增序列(如果沒有註明是反向排序(reversed sort)   
@@ -114,7 +125,7 @@ Conquer：按照「由小到大」的順序，「合併」小數列。
 考慮數列{8}與{6}，比較大小後，合併成數列{6,8}。  
 考慮數列{3,5}與{6,8}，比較大小後，合併成數列{3,5,6,8}。  
 依此類推，最後，考慮數列{3,5,6,8}與{1,2,4,7}，比較大小後，合併成數列{1,2,3,4,5,6,7,8}。  
-#### KNN 演算法(K-Nearest Neighbor)  K-鄰演算法  
+### KNN 演算法(K-Nearest Neighbor)  K-鄰演算法  
 + 用於**分類**以及**回歸**  
 + 利用dist 值的大小判斷兩者差異程度,值越小差異越少 使用畢氏定理觀念  
 + 可用於影片推薦  
