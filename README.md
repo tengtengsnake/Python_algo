@@ -86,8 +86,17 @@
 + 為bubble sort() 改良版
 + also known as bidirectional bubble sort  
 #### 選擇排序法 (Selection sort)  
-![](http://i.stack.imgur.com/qa2Cg.gif)  
-
+![]([http://i.stack.imgur.com/qa2Cg.gif](https://ithelp.ithome.com.tw/upload/images/20211003/20121027Z3FUzMHujx.jpg))  
++ 原理是反覆從未排序數列中找出最小值，將它與左邊的數做交換。可以有兩種方式排序，一為由大到小排序時，將最小值放到末端;若由小到大排序時，則將最小值放到前端  
++ n=5
+第1回合在4個數中找最小值，找4次，n-1次  
+第2回合在3個數中找最小值，找3次，n-2次  
+第3回合在2個數中找最小值，找2次，n-3次  
+第4回合在1個數中找最小值，找1次，n-4次  
+總共找了4回合，n-1回合  
+  
+(n-1) + (n-2) + .... + 1 = n(n-1) / 2  
+平均時間複雜度為: O(n²)  
 #### 合併排序法(Ｍerge sort)  
 ![](https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Sorting%20series/ComparisonSort_fig/MergeSort/f1.png?raw=true)
 + Merge Sort屬於Divide and Conquer演算法，把問題先拆解(divide)成子問題，並在逐一處理子問題後，將子問題的結果合併(conquer)，如此便解決了原先的問題。
