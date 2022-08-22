@@ -77,11 +77,12 @@
 + 不建議使用,已被破解  
 #### SHA(Secure hash algo)家族  
 ![](https://slidesplayer.com/slide/11296650/61/images/21/SHA%E5%AE%B6%E6%97%8F+%E6%BC%94%E7%AE%97%E6%B3%95+%E8%BC%B8%E5%87%BA%E9%9B%9C%E6%B9%8A%E5%80%BC%E9%95%B7%E5%BA%A6+%28bits%29+%E4%B8%AD%E7%B9%BC%E9%9B%9C%E6%B9%8A%E5%80%BC%E9%95%B7%E5%BA%A6+%28bits%29+%E8%B3%87%E6%96%99%E5%8D%80%E5%A1%8A%E9%95%B7%E5%BA%A6+%28bits%29+%E6%9C%80%E5%A4%A7%E8%BC%B8%E5%85%A5%E8%A8%8A%E6%81%AF%E9%95%B7%E5%BA%A6+%28bits%29.jpg)
-+ 由NSA 設計 National insiture of standards and Technology  
++ 由NSA(national secure agency) 設計 NIST(National insiture of standards and Technology) 發布    
 + 種類有SHA-0,SHA-1(被破解),SHA2,SHA3  
-##### SHA2 SHA256  
+##### [SHA2 SHA256](https://shattered.io)  
 + 廣泛使用,尚未破解  
-+ 
+### 什麼是碰撞抵抗?  
++ 雜湊碰撞（hash collision，即兩個不同檔案雜湊表一致，也有譯作雜湊衝突）本來不應該發生
 ### 排序Sort  
 + 將一串資料依特定方式排序  
 + 輸出結果是遞增序列(如果沒有註明是反向排序(reversed sort)   
