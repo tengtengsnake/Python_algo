@@ -82,9 +82,9 @@
 + 如果有n筆元素,將做n-1次比較(n-1次迴圈)  
 + time complexity is O(n**2)  
 #### 雞尾酒排序法(Cocktail sort)  
+![](https://img.magiclen.org/albums/cocktail-sort/animation-541x176.gif)
 + 為bubble sort() 改良版
-+ also known as bidirectional sort  
-+ 
++ also known as bidirectional bubble sort  
 #### 合併排序法(Ｍerge sort)  
 ![](https://github.com/alrightchiu/SecondRound/blob/master/content/Algorithms%20and%20Data%20Structures/Sorting%20series/ComparisonSort_fig/MergeSort/f1.png?raw=true)
 + Merge Sort屬於Divide and Conquer演算法，把問題先拆解(divide)成子問題，並在逐一處理子問題後，將子問題的結果合併(conquer)，如此便解決了原先的問題。
