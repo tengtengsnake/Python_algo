@@ -79,7 +79,12 @@
 #### 摩斯密碼 Morse code  
 ![](https://as1.ftcdn.net/v2/jpg/01/68/20/26/1000_F_168202614_Jj43C5BwxvuulH5GExEc9fAhvXyN9vrJ.jpg)
 + 時通時斷訊號代碼,使用無線電傳輸  
-+ 
++ 在python中,是利用字典來建立morse code的,可以利用迴圈將使用者輸入的key值把對應的value迭代出來  
+#### [凱薩密碼( Caesar cipher )](https://ithelp.ithome.com.tw/m/articles/10261660)    
+![](https://i.imgur.com/Z2Erlgil.png)  
++ 做法是將每一個英文字母都往後推n個，上圖表示為 n=2 ( 而凱薩使用的是n=3 )  
++ 編碼 ( encode ):編碼是把資料換個表示方法儲存  
+![](https://chart.googleapis.com/chart?cht=tx&chl=E(x)%20%3D%20(x%2Bn)%20mod%2026)
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
