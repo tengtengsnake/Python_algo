@@ -67,6 +67,19 @@
 ![](https://media.geeksforgeeks.org/wp-content/uploads/tree.jpg)
 + 完美二元樹(Perfect Binary tree),除最深層節點,其他節點都是滿的
 ![](https://cdn.programiz.com/sites/tutorial2program/files/perfect-binary-tree_0.png)
+### 資料安全與資料加密  (認識專有名詞)  
++ 竊聽(wiretap)  傳送方A傳遞資訊給接收方B的過程中被C擷取,就是竊聽wiretap ,可以透過資料加密解決 
+![](https://camel.apache.org/components/3.18.x/eips/_images/eip/WireTap.gif)  
++ 竄改(tamper) 避免傳遞的資料被擷取後竄改,可以用**數位簽章**,**訊息鑑別碼**解決  
++ 電子詐騙(E fraudf) 傳送方A被駭客偽裝  
++ 拒絕(repudiation) 傳送方A沒有事先跟Ｂ說要傳送資訊,造成糾紛  
++ 明文/原始文件(plain text) ,沒有加密過的資料  
++ 密文(cipher text) 加密過的資料  
++ 加密就是將數據轉換成一般人難以理解的內容,採用的方法稱之為金鑰  
+#### 摩斯密碼 Morse code  
+![](https://as1.ftcdn.net/v2/jpg/01/68/20/26/1000_F_168202614_Jj43C5BwxvuulH5GExEc9fAhvXyN9vrJ.jpg)
++ 時通時斷訊號代碼,使用無線電傳輸  
++ 
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
