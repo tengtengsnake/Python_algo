@@ -1,4 +1,9 @@
-# python_algo_practice
+# python_algo_relative knowledge. 
+## Script language（腳本語言)  
++ 是個文字式（text-based）的語言  
++ 為了縮短傳統的「編寫、編譯、連結、執行」（edit-compile-link-run）過程而建立的電腦語言 
++ 以簡單的方式快速完成某些複雜的事情通常是腳本語言的重要原則  
++ 
 ## 時間複雜度
 ![](https://i.ytimg.com/vi/47GRtdHOKMg/maxresdefault.jpg)  
 + 因為每一台電腦效能不同,因此科學家不會採用絕對時間來衡量code所執行得時間
