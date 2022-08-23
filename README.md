@@ -84,7 +84,10 @@
 ![](https://i.imgur.com/Z2Erlgil.png)  
 + 做法是將每一個英文字母都往後推n個，上圖表示為 n=2 ( 而凱薩使用的是n=3 )  
 + 編碼 ( encode ):編碼是把資料換個表示方法儲存  
++ 像ASCII、UTF-8、base64、甚至摩斯密碼等也都是編碼方式
++ 但是編碼不具已有保護資料功能    
 ![](https://chart.googleapis.com/chart?cht=tx&chl=E(x)%20%3D%20(x%2Bn)%20mod%2026)
+![](https://chart.googleapis.com/chart?cht=tx&chl=D(x)%20%3D%20(x-n)%20mod26)
 ### [Hash table](https://hackmd.io/@jkrvivian/HJln3jU_e?type=view)  
 ![](https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png)
 + 主要目的是提高搜尋某一個元素的效率  
