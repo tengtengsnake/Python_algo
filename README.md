@@ -108,6 +108,7 @@
 ##### [SHA2 SHA256](https://shattered.io)  
 + 廣泛使用,尚未破解  
 ### 什麼是碰撞抵抗?  
+![](https://inside-assets1.inside.com.tw/2017/02/Collision-illustrated.png?w=730&fit=max&q=80)
 + 雜湊碰撞（hash collision，即兩個不同檔案雜湊表一致，也有譯作雜湊衝突）本來不應該發生
 ### 排序Sort  
 + 將一串資料依特定方式排序  
