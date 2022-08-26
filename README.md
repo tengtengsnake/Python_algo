@@ -111,6 +111,17 @@
 ![](https://inside-assets1.inside.com.tw/2017/02/Collision-illustrated.png?w=730&fit=max&q=80)
 + [雜湊碰撞](https://www.inside.com.tw/article/8614-google-just-had-first-sha-1-collision)（hash collision，即兩個不同檔案雜湊表一致，也有譯作雜湊衝突）本來不應該發生
 + ![](https://inside-assets1.inside.com.tw/2017/02/shattered-infographic.png?w=730&fit=max&q=80)
+#### 金鑰密碼  
++ 實務應用上可以將加密與解密分成兩種 1:對稱金鑰密碼(symetric-key algo),2:公開金鑰密碼(public key cryptography)  
++ 對稱金鑰密碼又稱為對稱加密,使用相同金鑰來處理加解密  ,但會有金鑰傳送困難的問題,金鑰傳送過程中可能會被劫去  金鑰是非公開  
++ 非對稱金鑰密碼(Asymmetric crytpgraphy)又稱為公開金鑰密碼,主要有兩個金鑰用於加密(公開)與解密(非公開)  因使用不同金鑰加密與解密,所以稱為非對稱加密 ex:RSA演算法  
+#### 數位簽章(Digital Signature)  
++ 像是在文件上簽名的技術
++ 具有確認身份,以及文件完整性  
++ 使用**私鑰**加密,,想像成簽名拉,使用公鑰解密,相當於驗證簽名  
++ 驗證簽名,收的一方必須知道簽名長怎樣,傳送方必須事先讓接收方知道    
+#### 數位憑證(Digital certificate),又稱身份憑證(identity certificate)  
++ 主要是用來認證使用者身份,由CA(certificate authority)負責通訊方身份認證  
 ### 排序Sort  
 + 將一串資料依特定方式排序  
 + 輸出結果是遞增序列(如果沒有註明是反向排序(reversed sort)   
