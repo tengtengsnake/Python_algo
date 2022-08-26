@@ -110,6 +110,7 @@
 ### 什麼是碰撞抵抗?  
 ![](https://inside-assets1.inside.com.tw/2017/02/Collision-illustrated.png?w=730&fit=max&q=80)
 + [雜湊碰撞](https://www.inside.com.tw/article/8614-google-just-had-first-sha-1-collision)（hash collision，即兩個不同檔案雜湊表一致，也有譯作雜湊衝突）本來不應該發生
++ ![](https://inside-assets1.inside.com.tw/2017/02/shattered-infographic.png?w=730&fit=max&q=80)
 ### 排序Sort  
 + 將一串資料依特定方式排序  
 + 輸出結果是遞增序列(如果沒有註明是反向排序(reversed sort)   
