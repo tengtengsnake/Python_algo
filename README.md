@@ -115,6 +115,11 @@
 + 實務應用上可以將加密與解密分成兩種 1:對稱金鑰密碼(symetric-key algo),2:公開金鑰密碼(public key cryptography)  
 + 對稱金鑰密碼又稱為對稱加密,使用相同金鑰來處理加解密  ,但會有金鑰傳送困難的問題,金鑰傳送過程中可能會被劫去  金鑰是非公開  
 + 非對稱金鑰密碼(Asymmetric crytpgraphy)又稱為公開金鑰密碼,主要有兩個金鑰用於加密(公開)與解密(非公開)  因使用不同金鑰加密與解密,所以稱為非對稱加密 ex:RSA演算法  
++ RSA的問題不知道會不會被中間人攻擊(man in the middle attack) MITI  ,公鑰私鑰都是由接收方給傳送方,給公鑰的途中可能會被駭客換成自己的公鑰  
+#### 訊息鑑別碼(Message authoentication code)  
++ 簡稱MAC碼  
++ 其實就是checksum拉
++ 經由MAC algo 產生MAC碼,其實就是經過hash-function 產生hashcode(checksum)   
 #### 數位簽章(Digital Signature)  
 + 像是在文件上簽名的技術
 + 具有確認身份,以及文件完整性  
