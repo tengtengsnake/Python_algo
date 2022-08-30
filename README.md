@@ -185,3 +185,11 @@ Conquer：按照「由小到大」的順序，「合併」小數列。
 #### 找到最小公倍數  LCM(least common multiple)  
 + LCM method   兩數相乘除以gcd  
 
+## Graph 圖論  
++ basic graph 只有節點(vertices)以及邊(edge)組成  
+![](https://media.geeksforgeeks.org/wp-content/cdn-uploads/undirectedgraph.png)
++ 生活實例 臉書朋友關係可以使用圖型表達  
+![](https://images.saymedia-content.com/.image/t_share/MTczODc5ODgzMjA0OTk0MTEy/how-i-track-down-old-friends-on-facebook.jpg)
++ 上圖中,每一個節點表示ㄧ個人,頂點之間有線連接表示是相鄰節點,有些是直接朋友關係,有些則不是  
++ 加權圖形 
+![](https://i.stack.imgur.com/Mu6VZ.png)
