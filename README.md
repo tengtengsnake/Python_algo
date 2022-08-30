@@ -193,3 +193,9 @@ Conquer：按照「由小到大」的順序，「合併」小數列。
 + 上圖中,每一個節點表示ㄧ個人,頂點之間有線連接表示是相鄰節點,有些是直接朋友關係,有些則不是  
 + 加權圖形 
 ![](https://i.stack.imgur.com/Mu6VZ.png)
+＋ 在上圖中,可以在邊上加上數字表示權重,表示頂點之間的連線關係  
+![](https://www.oreilly.com/library/view/a-common-sense-guide/9781680502794/images/chapter14/graphs_second_half_Part8.png)
++ 此圖頂點之間的數字可以表示城市之間的距離  
++ Directed graph 有向圖形  頂點之間的連線(邊)具有方向性  
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Directed_graph%2C_cyclic.svg/450px-Directed_graph%2C_cyclic.svg.png)
++
