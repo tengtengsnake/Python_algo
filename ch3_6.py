@@ -11,6 +11,10 @@ class Linked_list():
         while ptr:
             print(ptr.data)
             ptr=ptr.next
+    def begining(self,newdata):
+        new_node=Node(newdata)
+        new_node.next=self.head
+        self.head=new_node
     def ending(self,newdata):
         '''在linked_list 尾端插入新資料'''
         new_node=Node(newdata)#建立新節點
