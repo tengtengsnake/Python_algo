@@ -201,4 +201,6 @@ Conquer：按照「由小到大」的順序，「合併」小數列。
 + Directed Acycle Graph  有無環圖  簡稱DAG 無法找到頂點可以經由連接線返回此頂點
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Directed_acyclic_graph_3.svg/1200px-Directed_acyclic_graph_3.svg.png)
 + Topological Sort 拓墣排序,如果有一個圖的節點之間有順序關係,我們可以稱此圖為**拓墣排序**  
-+ 
+## Heap 堆積  
++ 最大堆積(max heap),父節點永遠大於子節點  
++ 最小堆積(min heap),父節點永遠大於子節點  
